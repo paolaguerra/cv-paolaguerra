@@ -1,47 +1,46 @@
-import React from "react";
+import { Popover } from "@headlessui/react";
 import { NavLink } from "react-router-dom";
 
 export const Navbar = () => {
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <div className="container-fluid">
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarText"
-            aria-controls="navbarText"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+    <header className="bg-none flex mt-9">
+      <nav
+        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        aria-label="Global"
+      >
+        <Popover.Group className="hidden lg:flex lg:gap-x-12">
+          <NavLink
+            className="text-base font-semibold leading-6 text-white"
+            to="/home"
           >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarText">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <NavLink className="nav-item nav-link" to="/home">
-                Home
-              </NavLink>
-
-              <NavLink className="nav-item nav-link" to="/work">
-                Work
-              </NavLink>
-
-              <NavLink className="nav-item nav-link" to="/about">
-                About
-              </NavLink>
-
-              <NavLink className="nav-item nav-link" to="/fun">
-                Fun
-              </NavLink>
-
-              <NavLink className="nav-item nav-link" to="/contact">
-                Contact
-              </NavLink>
-            </ul>
-          </div>
-        </div>
+            Home
+          </NavLink>
+          <NavLink
+            className="text-base font-semibold leading-6 text-white"
+            to="/about"
+          >
+            About
+          </NavLink>
+          <NavLink
+            className="text-base font-semibold leading-6 text-white"
+            to="/work"
+          >
+            Work
+          </NavLink>
+          <NavLink
+            className="text-base font-semibold leading-6 text-white"
+            to="/fun"
+          >
+            Fun
+          </NavLink>
+          <NavLink
+            className="text-base font-semibold leading-6 text-white"
+            to="/contact"
+          >
+            Contact
+          </NavLink>
+        </Popover.Group>
       </nav>
-    </div>
+    </header>
   );
 };

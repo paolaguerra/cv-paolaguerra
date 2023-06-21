@@ -1,13 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, #bddfe7, #e4cea4, #feccd9);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.animate__animated.animate__fadeInDown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+h1.main-title {
+    color: #ffffff;
+    display: flex;
+    font-weight: 800;
+    font-size: 80px;
+    margin-top: 60px;
+}
+
+h2.subtitle-c3 {
+  display: flex;
+  color: #ffffff;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+  font-size: 22px;
+}
+
+p.sub-title {
+  display: flex;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card.mb-3 {
+  max-width: 540px;
+  display: flex;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 2px 7px #00000012;
+}
+
+.content-2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-card {
+  max-width: 100%;
+  height: auto;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+ol.list-group {
+  display: flex;
+  margin-left: 20px;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 8px
+}
+
+li.list-group-item {
+  margin-bottom: 15px;
+}
+
+.col-md-8 {
+  display: flex;
+  align-items: center;
+}
+
+p.card-text {
+  display: flex;
+  align-items: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+
+.card-wid {
+  width: 35rem;
+  height: 30rem;
+  border: none;
+  background-color: white;
+  /* background-color: #ffffff8c; */
+  box-shadow: 0 2px 7px #00000012;
+  color: #4c4c4c;
+  margin: 30px;
+  border-radius: 20px;
+  transition: transform .2s;
+}
+
+.card-wid:hover {
+  transform: scale(1.01);
+}
+
+img.img-wid {
+  display: flex;
+  border-radius: 20px;
+  margin-top: 10px;
+  box-shadow: 0 2px 7px #000000ab;
+}
+
+.row-1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 160px;
+}
+
+
+
