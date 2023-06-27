@@ -23,15 +23,15 @@ export const Navbar = () => {
           </NavLink>
           <NavLink
             className="text-base font-semibold leading-6 text-white"
-            to="/work"
+            to="/react"
           >
-            Work
+            React Projects
           </NavLink>
           <NavLink
             className="text-base font-semibold leading-6 text-white"
-            to="/fun"
+            to="/design"
           >
-            Fun
+            Design Projects
           </NavLink>
           <NavLink
             className="text-base font-semibold leading-6 text-white"
