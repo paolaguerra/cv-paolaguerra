@@ -17,7 +17,8 @@ export const About = () => {
               time, my visa (H4) restricted my ability to work, prompting me to
               channel my energy into the software development world. <br />
               <br />
-              Over the past couple of years, I've studied ReactJS, an incredible
+              Over the past couple of years, I've studied
+              <a class="underline decoration-sky-500">ReactJS</a>, an incredible
               library that has opened up boundless opportunities for me to
               create innovative solutions. I've improved my skills by building
               diverse projects from scratch, ranging from a number calculator to
