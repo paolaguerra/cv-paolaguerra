@@ -1,6 +1,5 @@
 import React from "react";
 
-
 export const Contact = () => {
   return (
     <div>
@@ -46,6 +45,7 @@ export const Contact = () => {
                 </div>
               </div>
             </li>
+
             <li>
               <div className="flex items-center gap-x-6">
                 <svg
@@ -73,6 +73,7 @@ export const Contact = () => {
                 </div>
               </div>
             </li>
+
             <li>
               <div className="flex items-center gap-x-6">
                 <svg
@@ -105,6 +106,7 @@ export const Contact = () => {
                 </div>
               </div>
             </li>
+
             <li>
               <div className="flex items-center gap-x-6">
                 <svg
@@ -127,11 +129,73 @@ export const Contact = () => {
                     Linkedin
                   </h3>
                   <span class="mr-5 inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">
-                    linkedin.com/in/paolaguerrah
+                  <a href="https://www.linkedin.com/in/paolaguerrah" target="_blank">linkedin.com/in/paolaguerrah</a>
                   </span>
                 </div>
               </div>
             </li>
+
+            <li>
+              <div className="flex items-center gap-x-6">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M14.25 9.75L16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z"
+                  />
+                </svg>
+
+                <div>
+                  <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">
+                    Github
+                  </h3>
+                  <span class="mr-5 inline-flex items-center rounded-md bg-purple-50 px-2 py-1 text-xs font-medium text-purple-700 ring-1 ring-inset ring-purple-700/10">
+                  <a href="https://github.com/paolaguerra" target="_blank">github.com/paolaguerra</a>
+                 </span>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div className="flex items-center gap-x-6">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM18.75 10.5h.008v.008h-.008V10.5z"
+                  />
+                </svg>
+
+                <div>
+                  <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">
+                    Instagram
+                  </h3>
+                  <span class="mr-5 inline-flex items-center rounded-md bg-pink-50 px-2 py-1 text-xs font-medium text-pink-700 ring-1 ring-inset ring-pink-700/10">
+                  <a href="https://www.instagram.com/paolaguerrah" target="_blank">instagram.com/paolaguerrah</a>
+                  </span>
+                </div>
+              </div>
+            </li>
+
           </ul>
         </div>
       </div>
